@@ -16,13 +16,13 @@ This repository contains Python scripts for performing Multi-fidelity Optimisati
 └── partition_samplings.py                # Partitioning of samples
 ```
 # Requirements
-Python 3.9+
-Required Python packages:
-numpy
-scipy
-matplotlib
-HPC environment with SLURM (optional)
-
+- Python 3.9+
+### Required Python packages:
+- numpy==1.23.5
+- pandas==2.3.1
+- scipy==1.10.1 
+- matplotlib==3.9.4
+  
 # Usage
 ## Running on HPC (SLURM)
 The script analysis_with_optimal_prmtrs.slurm is set up for a job array. Example usage:
