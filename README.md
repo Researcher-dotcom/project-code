@@ -1,0 +1,1 @@
+Optimal Sampling Project: This repository contains Python scripts for performing optimal sampling experiments on benchmark test functions using various sampling methods. The project supports reproducible experiments with multiple seeds and can be run on HPC clusters via SLURM.
