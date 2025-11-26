@@ -2,7 +2,6 @@
 This repository contains Python scripts for performing Multi-fidelity Optimisation via Hybrid Genetic-Greedy Search experiments on benchmark test functions using various sampling methods. The project supports reproducible experiments with multiple seeds and can be run on high-performance computing (HPC) clusters via SLURM.
 # Repository Structure
 ```bash
-Optimal-sampling/
 ├── analysis_with_optimal_prmtrs.py       # Main analysis script
 ├── analysis_with_optimal_prmtrs.slurm   # SLURM batch script
 ├── cross_over.py                         # Crossover operators for GA
